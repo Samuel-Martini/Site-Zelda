@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px;
+    background-color: #004b32;
+    color: #b3aeae;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header h1,
+.container h2 {
+    font-family: Lora;
+}
+
+.container h2 {
+    color: #004b32;
+}
+
+body {
+    font-family: Akaya Telivigala;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #b3aeae;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+header .container, 
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.tela-inicial {
+    margin-right: 32px;
+    width: 720px;
+    height: 480px;
+}
+
+.cena-jogo {
+    margin-left: 32px;
+    width: 720px;
+    height: 480px;
+}
+
+#fan-art .container {
+    display: block;
+}
+
+#fan-art article {
+    margin: 24px 0;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button:hover {
+    background-color: #12805b;
+}
+
+form button {
+    background-color: #004b32;
+    color: #b3aeae;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    outline: #004b32;
+}
+
+footer {
+    background-color: #004b32;
+    color: #b3aeae;
+    padding: 16px 0;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
